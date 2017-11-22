@@ -1,0 +1,98 @@
+<html>
+<head>
+	EVENTS
+</head>
+<title align ="center" height="2%">EVENT WEB</title>
+<link rel="stylesheet" type="text/css" href="filecss.css">
+<style type="text/css">
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #00f;
+}
+
+.cancelbtn,.signupbtn {
+    float: left;
+    width: 50%;
+}
+
+
+.container {
+    padding: 16px;
+}
+
+.active {
+  background-color: #00f;
+}
+.logoutbtn {
+    float: right;
+    width: 10%;
+    background-color: #000;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+  
+}
+</style>
+
+<body>
+   <h1 align = "center"> Welcome To Bright Events <button type="submit" class="Logoutbtn">Logout</button></h1>
+	<hr align="left" width="100%" height="2%" >
+	
+<div class="topnav" id="myTopnav">
+  <a href="Index.html" >Home</a>
+  <a href="events.html">Events</a>
+  <a href="Index.html">Contact</a>
+  <a href="Index.html">About</a>
+  <div class="topnav2" id="myTopnav2">
+  	  <a href="Login.html" >Login</a>
+  	    <a href="register.html" class="active" >Register</a>
+  	</div>
+
+
+</div>
+</ul>
+</div>
+
+<h2> REGISTER PAGE </h2>
+<form action="" style="border:1px solid #ccc">
+  <div class="container">
+    <label><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label><b>Confirm Password</b></label>
+    <input type="password" placeholder="Confirm Password" name="psw-repeat" required>
+    <input type="checkbox" checked="checked"> Remember me
+    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+    <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+  </div>
+</form>
+</body>
+</html>
